@@ -1,98 +1,121 @@
-@font-face {
-    font-family: 'Ubuntu Mono';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(http://themes.googleusercontent.com/static/fonts/ubuntumono/v3/ViZhet7Ak-LRXZMXzuAfkYbN6UDyHWBl620a-IRfuBk.woff) format('woff');
-}
-
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Roboto Light'), local('Roboto-Light'), url(http://themes.googleusercontent.com/static/fonts/roboto/v8/Hgo13k-tfSpn0qi1SFdUfT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
-}
-
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  src: local('Roboto Medium'), local('Roboto-Medium'), url(http://themes.googleusercontent.com/static/fonts/roboto/v8/RxZJdnzeo3R5zSexge8UUT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
-}
-
-@font-face {
-  font-family: 'Roboto';
-  font-style: italic;
-  font-weight: 300;
-  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(http://themes.googleusercontent.com/static/fonts/roboto/v8/7m8l7TlFO-S3VkhHuR0at4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
-}
-
-@font-face {
-  font-family: 'Roboto';
-  font-style: italic;
-  font-weight: 500;
-  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(http://themes.googleusercontent.com/static/fonts/roboto/v8/OLffGBTaF0XFOW1gnuHF0YbN6UDyHWBl620a-IRfuBk.woff) format('woff');
-}
-
 body {
-    font-family: Georgia, FreeSerif, serif;
-    font-weight: 300;
-    background-color: #f8f8f8;
-    color: #222;
-    width: 900px;
-    margin: 0px auto;
-}
-
-h1 {
-    font-weight: 100;
-    border-bottom: 1px solid currentColor;
-    font-style: italic;
-    font-size: 3em;
-    font-family: "Times New Roman", serif;
+  font-family: Georgia, FreeSerif, serif;
+  background-color: #fbfbfb;
+  color: #1b1b1b;
+  width: 700px;
+  margin: 0px auto;
 }
 
 p {
-    line-height: 1.7em;
-    font-size: 1.2em;
-    padding-left: 1ch;
-    text-align: justify;
+  line-height: 145%;
+  font-size: 1.2em;
+  padding-left: 1ch;
+  text-align: justify;
 }
 
-p strong {
-    font-weight: 400;
+a {
+  font-variant: small-caps;
+  color: inherit;
+  text-transform: lowercase;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-weight: normal;
+  border-bottom: 1px solid currentColor;
+  font-style: italic;
+  font-size: 3em;
+  font-family: "Times New Roman", serif;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.1);
+}
+
+h1 > nav {
+  display: none;
+  font-size: 0.4em;
+  font-style: normal;
+}
+
+h1 > nav a {
+  margin-left: 10px;
+}
+
+h1:after {
+  content: "» menu";
+  font-size: 0.4em;
+}
+
+h1:hover:after {
+  display: none;
+}
+
+h1:hover > nav {
+  display: inline;
 }
 
 h2 {
-    font-size: 1.7em;
-    font-weight: bold;
-    text-transform: lowercase;
-    font-variant: small-caps;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
+  font-size: 1.7em;
+  font-weight: bold;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.1);
 }
 
-h3, h4, h5, h6 {
-    font-weight: 400;
+h3 {
+  font-weight: bold;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
 }
 
-pre, code{
-    font-family: 'Ubuntu Mono', monospace;
-    font-weight: 400;
-    font-style: normal;
+h4 {
+  font-weight: bold;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.05);
+}
+
+pre, code {
+  font-family: 'Source Code Pro', 'Ubuntu Mono', monospace;
+  font-style: normal;
 }
 
 pre {
-    font-size: 0.9em;
-    padding: 15px;
-    background-color: rgba(0, 0, 0, 0.05);
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    word-break: break-all;
-    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 0.9em;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.03);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-all;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-blockquote, q {
-    font-style: italic;
-    font-family: serif;
+blockquote > p {
+  font-style: italic;
+  font-family: serif;
+  font-size: 1.3em;
+  line-height: 145%;
+  font-family: "Times New Roman", sans-serif;
+  margin-bottom: 60px;
+}
+
+blockquote > p:before {
+  content: "“";
+  font-size: 5em;
+  float: left;
+  margin-left: -65px;
+  margin-top: 15px;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-family: "Times New Roman", serif;
+}
+
+blockquote > p:after {
+  content: attr(data-author);
+  float: right;
+  margin-top: 10px;
 }
