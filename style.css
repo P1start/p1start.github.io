@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(http://themes.googleusercontent.com/static/fonts/ubuntumono/v3/ViZhet7Ak-LRXZMXzuAfkYbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(http://themes.googleusercontent.com/static/fonts/roboto/v8/Hgo13k-tfSpn0qi1SFdUfT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(http://themes.googleusercontent.com/static/fonts/roboto/v8/RxZJdnzeo3R5zSexge8UUT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(http://themes.googleusercontent.com/static/fonts/roboto/v8/7m8l7TlFO-S3VkhHuR0at4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(http://themes.googleusercontent.com/static/fonts/roboto/v8/OLffGBTaF0XFOW1gnuHF0YbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+
+body {
+    font-family: Georgia, FreeSerif, serif;
+    font-weight: 300;
+    background-color: #f8f8f8;
+    color: #222;
+    width: 900px;
+    margin: 0px auto;
+}
+
+h1 {
+    font-weight: 100;
+    border-bottom: 1px solid currentColor;
+    font-style: italic;
+    font-size: 3em;
+    font-family: "Times New Roman", serif;
+}
+
+p {
+    line-height: 1.7em;
+    font-size: 1.2em;
+    padding-left: 1ch;
+    text-align: justify;
+}
+
+p strong {
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.7em;
+    font-weight: bold;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
+}
+
+h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+pre, code{
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+pre {
+    font-size: 0.9em;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.05);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-all;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+blockquote, q {
+    font-style: italic;
+    font-family: serif;
+}
