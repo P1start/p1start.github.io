@@ -100,7 +100,6 @@ blockquote > p {
   font-size: 1.3em;
   line-height: 145%;
   font-family: "Times New Roman", sans-serif;
-  margin-bottom: 60px;
 }
 
 blockquote > p:before {
@@ -112,10 +111,4 @@ blockquote > p:before {
   color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
   font-family: "Times New Roman", serif;
-}
-
-blockquote > p:after {
-  content: attr(data-author);
-  float: right;
-  margin-top: 10px;
 }
