@@ -31,29 +31,50 @@ h1 {
   font-size: 3em;
   font-family: "Times New Roman", serif;
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 h1 > nav {
-  display: none;
+  display: inline;
+  position: relative;
+  top: 25px;
   font-size: 0.4em;
   font-style: normal;
+  transition: top 0.4s ease;
+  -moz-transition: top 0.4s ease;
+  -webkit-transition: top 0.4s ease;
+  -o-transition: top 0.4s ease;
 }
 
 h1 > nav a {
   margin-left: 10px;
 }
 
-h1:after {
-  content: "» menu";
+h1 .hint {
+  margin-right: -4em;
   font-size: 0.4em;
+  opacity: 1;
+  color: rgba(0, 0, 0, 0.4);
+  transition: opacity 0.2s ease 0.15s;
+  -moz-transition: opacity 0.2s ease 0.15s;
+  -webkit-transition: opacity 0.2s ease 0.15s;
+  -o-transition: opacity 0.2s ease 0.15s;
 }
 
-h1:hover:after {
-  display: none;
+h1:hover .hint {
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  -moz-transition: opacity 0.15s ease;
+  -webkit-transition: opacity 0.15s ease;
+  -o-transition: opacity 0.15s ease;
 }
 
 h1:hover > nav {
-  display: inline;
+  top: 0px;
+  transition: top 0.2s ease;
+  -moz-transition: top 0.2s ease;
+  -webkit-transition: top 0.2s ease;
+  -o-transition: top 0.2s ease;
 }
 
 h2 {
