@@ -29,7 +29,8 @@ for page in ${PAGES[@]}; do
     </section>
     </div>
     <footer>
-    Copyright Ⓒ Not Really Inc. 2014. All rights reserved — well, not really.
+    Licensed under the <a href=\"https://gnu.org/licenses/gpl.html\">GNU General Public License</a>.<br/>
+    Last updated 2014.
     </footer>
     </body>
     </html>" > $page.html

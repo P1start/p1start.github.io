@@ -8,7 +8,6 @@ body {
 #main {
   background-color: #fff;
   color: #1b1b1b;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
 }
 
 #main > section {
@@ -58,6 +57,10 @@ h1 {
   width: 700px;
 }
 
+h1 > a:hover {
+  border-color: transparent !important;
+}
+
 h1 > a {
   text-transform: none;
   font-variant: normal;
@@ -87,7 +90,7 @@ h1 .hint {
   margin-right: -4em;
   font-size: 0.4em;
   opacity: 1;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.5);
   transition: opacity 0.2s ease 0.15s;
   -moz-transition: opacity 0.2s ease 0.15s;
   -webkit-transition: opacity 0.2s ease 0.15s;
@@ -129,7 +132,6 @@ h2:after {
   left: 0;
   content: " ";
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.1);
 }
 
 h3 {
@@ -142,7 +144,6 @@ h3:after {
   left: 0;
   content: " ";
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
 }
 
 h4 {
@@ -155,7 +156,6 @@ h4:after {
   left: 0;
   content: " ";
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.05);
 }
 
 pre, code {
@@ -170,9 +170,6 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-all;
-  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 blockquote > p {
@@ -188,7 +185,7 @@ blockquote > p:before {
   font-size: 5em;
   float: left;
   margin-left: -65px;
-  margin-top: 15px;
+  margin-top: 28px;
   color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
   font-family: "Times New Roman", serif;
