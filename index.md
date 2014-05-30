@@ -1,7 +1,9 @@
-You’ve just stumbled upon my web page! There’s nothing much here yet, so I wouldn’t bother hanging around yet. But if you are certain you want to have a look around, just use the menu up there ↑ and see what you can find.
+## Home
 
-In the meantime, here is a picture of a dancing potato. Enjoy!
+You’ve just stumbled across my web page! There’s nothing much here yet, so I wouldn’t bother hanging around yet. But if you are certain you want to have a look around, just use the menu up there ↑ and see what you can find.
 
-![Dancing potato](http://fc09.deviantart.net/fs71/f/2010/022/5/8/5824abb0e6e0a0494152f61148830c5e.gif)
+Bacon ipsum dolor sit amet beef ribs aute bresaola, meatball minim turkey fatback enim incididunt salami brisket anim do chicken. Cupidatat shank frankfurter sirloin do laboris, duis pork ad rump voluptate in. Id pork kielbasa velit short loin ut. Boudin nostrud sirloin veniam porchetta aliqua, short ribs occaecat bacon hamburger in. Cillum frankfurter in meatball ut, ham hock eiusmod cupidatat capicola boudin. Quis biltong filet mignon, aliqua pork ham pig aute consequat tempor consectetur velit exercitation ground round sirloin. Drumstick consectetur mollit veniam, short loin cillum leberkas ham hock meatball velit capicola tail adipisicing incididunt.
 
-(Credit to FrostDragonVacu on deviantART for this endlessly entertaining masterpiece.)
+Andouille meatloaf pancetta pig. Deserunt id veniam occaecat pork chop frankfurter labore est cillum kevin filet mignon short loin officia. Reprehenderit ham hock chuck pork biltong corned beef. Exercitation qui nostrud reprehenderit, esse et swine pork chop labore cow kielbasa magna bacon cillum.
+
+Officia bresaola labore, exercitation t-bone ut porchetta non kevin ham ullamco pork chop jerky doner reprehenderit. Chicken brisket pork belly spare ribs drumstick incididunt doner sirloin. Swine leberkas laborum pork belly reprehenderit occaecat short ribs nostrud pastrami kevin. Magna turkey ullamco ham hock, irure kielbasa veniam. Et in occaecat kielbasa, exercitation meatloaf pork belly brisket nisi consequat. Eiusmod fugiat strip steak sed aute fatback doner beef ribs et in.
