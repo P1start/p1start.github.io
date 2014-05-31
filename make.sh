@@ -14,12 +14,12 @@ for page in ${PAGES[@]}; do
     </head>
     <body>
     <header>
-    <h1><a href=\"/\"> Player 1 start</a>
+    <h1><a href=\"/index.html\"> Player 1 start</a>
     <span class=\"hint\">» menu</span>
     <nav>
     <a href="/index.html">Home</a>
     <a href="/blog.html">Blog</a>
-    <a href="https://github.com/P1start">GitHub</a>
+    <a href="//github.com/P1start">GitHub</a>
     </nav>
     </h1>
     </header>
@@ -29,7 +29,7 @@ for page in ${PAGES[@]}; do
     </section>
     </div>
     <footer>
-    Licensed under the <a href=\"https://gnu.org/licenses/gpl.html\">GNU General Public License</a>.<br/>
+    Licensed under <a href=\"https://creativecommons.org/licenses/by/3.0/\">CC-BY</a>.<br/>
     Last updated 2014.
     </footer>
     </body>

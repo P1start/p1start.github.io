@@ -1,12 +1,16 @@
 ## Home
 
-You’ve just stumbled across my web page! There’s nothing much here yet, so I wouldn’t bother hanging around yet. But if you are certain you want to have a look around, just use the menu up there ↑ and see what you can find.
+Welcome to my website. This site is very much a work in progress at the moment — expect major style changes, site reorganisations and actual content being added. It will be some time (if not forever) until anyone should even bother accessing this site.
 
-### I like bacon
+### Bacon ipsum
 
 Bacon ipsum dolor sit amet beef ribs aute bresaola, meatball minim turkey fatback enim incididunt salami brisket anim do chicken. Cupidatat shank frankfurter sirloin do laboris, duis pork ad rump voluptate in. Id pork kielbasa velit short loin ut. Boudin nostrud sirloin veniam porchetta aliqua, short ribs occaecat bacon hamburger in. Cillum frankfurter in meatball ut, ham hock eiusmod cupidatat capicola boudin. Quis biltong filet mignon, aliqua pork ham pig aute consequat tempor consectetur velit exercitation ground round sirloin. Drumstick consectetur mollit veniam, short loin cillum leberkas ham hock meatball velit capicola tail adipisicing incididunt.
 
-#### It’s tasty
+![Tasty bacon](http://baconmockup.com/700/300)
+
+<em class="caption">Figure 1: Delicious bacon.</em>
+
+#### Dolor sit amet
 
 > Andouille meatloaf pancetta pig. Deserunt id veniam occaecat pork chop frankfurter labore est cillum kevin filet mignon short loin officia. Reprehenderit ham hock chuck pork biltong corned beef. Exercitation qui nostrud reprehenderit, esse et swine pork chop labore cow kielbasa magna bacon cillum.
 

@@ -1,7 +1,9 @@
+/* Colour scheme: http://colourco.de/monochrome-light/5/%23f6f8fc */
+
 body {
   font-family: Georgia, FreeSerif, serif;
-  background-color: #eee;
-  color: #000;
+  background-color: #8dadd8;
+  color: #fff;
   margin: 0 0;
 }
 
@@ -11,7 +13,7 @@ body {
 }
 
 #main > section {
-  width: 700px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 1px 0;
 }
@@ -42,6 +44,11 @@ a:hover {
               border-color   0.2s ease;
 }
 
+#main a {
+  color: #4376bc;
+  font-weight: bold;
+}
+
 header {
   margin: 0;
 }
@@ -52,13 +59,9 @@ h1 {
   font-size: 3em;
   font-family: "Times New Roman", serif;
   overflow: hidden;
-  padding-top: 20px;
   margin: 0 auto;
   width: 700px;
-}
-
-h1 > a:hover {
-  border-color: transparent !important;
+  margin-top: 55px;
 }
 
 h1 > a {
@@ -67,6 +70,7 @@ h1 > a {
 }
 
 h1 > a:hover {
+  border-color: transparent;
   margin: 0;
 }
 
@@ -74,7 +78,7 @@ h1 > nav {
   display: inline;
   position: relative;
   top: 25px;
-  font-size: 0.4em;
+  font-size: 0.36em;
   font-style: normal;
   transition: top 0.4s ease;
   -moz-transition: top 0.4s ease;
@@ -84,13 +88,15 @@ h1 > nav {
 
 h1 > nav a {
   margin-left: 10px;
+  font-variant: normal;
+  font-style: italic;
 }
 
 h1 .hint {
   margin-right: -4em;
   font-size: 0.4em;
   opacity: 1;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.75);
   transition: opacity 0.2s ease 0.15s;
   -moz-transition: opacity 0.2s ease 0.15s;
   -webkit-transition: opacity 0.2s ease 0.15s;
@@ -114,9 +120,9 @@ h1:hover > nav {
 }
 
 footer {
-  background-color: #eee;
   text-align: center;
-  margin: 25px 0;
+  margin: 10px 0 55px;
+  font-style: italic;
 }
 
 h2 {
@@ -124,6 +130,7 @@ h2 {
   font-weight: bold;
   text-transform: lowercase;
   font-variant: small-caps;
+  z-index: 1;
 }
 
 h2:after {
@@ -131,7 +138,7 @@ h2:after {
   width: 100%;
   left: 0;
   content: " ";
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid #8DADD8;
 }
 
 h3 {
@@ -143,7 +150,7 @@ h3:after {
   width: 100%;
   left: 0;
   content: " ";
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid #8DADD8;
 }
 
 h4 {
@@ -155,7 +162,7 @@ h4:after {
   width: 100%;
   left: 0;
   content: " ";
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid #8DADD8;
 }
 
 pre, code {
@@ -166,7 +173,7 @@ pre, code {
 pre {
   font-size: 0.9em;
   padding: 15px;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: #e5e5e5;
   white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-all;
@@ -186,7 +193,17 @@ blockquote > p:before {
   float: left;
   margin-left: -65px;
   margin-top: 28px;
-  color: rgba(0, 0, 0, 0.2);
+  color: #8dadd8;
   font-weight: bold;
   font-family: "Times New Roman", serif;
+}
+
+img {
+  border: 15px solid white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  right: 0.5em;
+  width: 100%;
 }
