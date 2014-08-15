@@ -7,6 +7,7 @@ for page in ${PAGES[@]}; do
     echo "<!DOCTYPE html>
     <html>
     <head>
+    <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
     <link rel=\"stylesheet\" href=\"/normalize.css\"/>
     <link rel=\"stylesheet\" href=\"/style.css\"/>
     <meta charset=\"utf-8\"/>

@@ -1,7 +1,7 @@
 /* Colour scheme: http://colourco.de/monochrome-light/5/%23f6f8fc */
 
 body {
-  font-family: Georgia, FreeSerif, serif;
+  font-family: "Libre Baskerville", Georgia, FreeSerif, serif;
   background-color: #8dadd8;
   color: #fff;
   margin: 0 0;
@@ -20,7 +20,7 @@ body {
 
 p {
   line-height: 145%;
-  font-size: 1.2em;
+  font-size: 16px;
   padding-left: 1ch;
   text-align: justify;
 }
@@ -56,7 +56,7 @@ header {
 h1 {
   font-weight: normal;
   font-style: italic;
-  font-size: 3em;
+  font-size: 48px;
   font-family: "Times New Roman", serif;
   overflow: hidden;
   margin: 0 auto;
@@ -78,7 +78,7 @@ h1 > nav {
   display: inline;
   position: relative;
   top: 25px;
-  font-size: 0.36em;
+  font-size: 18px;
   font-style: normal;
   transition: top 0.4s ease;
   -moz-transition: top 0.4s ease;
@@ -93,8 +93,8 @@ h1 > nav a {
 }
 
 h1 .hint {
-  margin-right: -4em;
-  font-size: 0.4em;
+  margin-right: -80px;
+  font-size: 20px;
   opacity: 1;
   color: rgba(255, 255, 255, 0.75);
   transition: opacity 0.2s ease 0.15s;
@@ -126,7 +126,7 @@ footer {
 }
 
 h2 {
-  font-size: 1.7em;
+  font-size: 24px;
   font-weight: bold;
   text-transform: lowercase;
   font-variant: small-caps;
@@ -171,7 +171,7 @@ pre, code {
 }
 
 pre {
-  font-size: 0.9em;
+  font-size: 15px;
   padding: 15px;
   background-color: #e5e5e5;
   white-space: pre-wrap;
@@ -179,17 +179,17 @@ pre {
   word-break: break-all;
 }
 
-blockquote > p {
+blockquote p {
   font-style: italic;
   font-family: serif;
-  font-size: 1.3em;
+  font-size: 20px;
   line-height: 145%;
   font-family: "Times New Roman", sans-serif;
 }
 
-blockquote > p:before {
+blockquote p:before {
   content: "“";
-  font-size: 5em;
+  font-size: 104px;
   float: left;
   margin-left: -65px;
   margin-top: 28px;

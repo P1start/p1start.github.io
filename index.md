@@ -1,6 +1,6 @@
 ## Home
 
-Welcome to my website. This site is very much a work in progress at the moment — expect major style changes, site reorganisations and actual content being added. It will be some time (if not forever) until anyone should even bother accessing this site.
+Welcome to my website. This site is very much a work in progress at the moment&#65279;—&#65279;expect major style changes, site reorganisations and actual content being added. It will be some time (if not forever) until anyone should even bother accessing this site.
 
 ### Bacon ipsum
 
@@ -8,7 +8,7 @@ Bacon ipsum dolor sit amet beef ribs aute bresaola, meatball minim turkey fatbac
 
 ![Tasty bacon](http://baconmockup.com/700/300)
 
-<em class="caption">Figure 1: Delicious bacon.</em>
+*Figure 1: Delicious bacon.*
 
 #### Dolor sit amet
 
