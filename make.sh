@@ -11,16 +11,16 @@ for page in ${PAGES[@]}; do
     <link rel=\"stylesheet\" href=\"/normalize.css\"/>
     <link rel=\"stylesheet\" href=\"/style.css\"/>
     <meta charset=\"utf-8\"/>
-    <title>Player 1 start · Github</title>
+    <title>Rewi Haar · Github</title>
     </head>
     <body>
     <header>
-    <h1><a href=\"/index.html\"> Player 1 start</a>
+    <h1><a href=\"/index.html\">Rewi Haar</a>
     <span class=\"hint\">» menu</span>
     <nav>
     <a href="/index.html">Home</a>
     <a href="/blog.html">Blog</a>
-    <a href="//github.com/P1start">GitHub</a>
+    <a href="//github.com/ftxqxd">GitHub</a>
     </nav>
     </h1>
     </header>
